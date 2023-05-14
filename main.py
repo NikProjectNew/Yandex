@@ -18,7 +18,7 @@ class YaUploader:
         return response.json()["href"]
 
     def upload(self, file_list: list):
-         """Метод загружает файлы по списку file_list на яндекс диск"""
+        """Метод загружает файлы по списку file_list на яндекс диск"""
         # Тут ваша логика
         # Функция может ничего не возвращать
         for file_path in file_list:
